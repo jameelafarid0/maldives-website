@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Us</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <nav>
+    <div id="logo-1">
+      <a href="home.html"><img src="images/logo.png" alt="Explore Maldives website logo" /></a>
+    </div>
+
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="hamburger">&#9776;</label>
+
+    <ul class="all-links">
+      <li><a class="nav-link" href="index.html">Home</a></li>
+      <li><a class="nav-link" href="attractions.html">Top Attractions</a></li>
+      <li><a class="nav-link" href="hotels.html">Accommodations</a></li>
+      <li><a class="nav-link" href="budgets.html">Budget Tips</a></li>
+      <li><a class="nav-link" href="contacts.html">Contacts</a></li>
+    </ul>
+  </nav>
+
+  <!-- Header Section -->
+  <header class="contact-header">
+    <div class="section-1">
+      <div class="header-text">
+        <h1>Contact Us</h1>
+        <p id="contact-p-header">We’re here to help! If you have any questions or need assistance, please reach out to us using the form below.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Contact Form Section -->
+  <section class="contact-section">
+    <form class="contact-form" action="#thank-you">
+      <label for="name">Name<span>*</span></label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email Address<span>*</span></label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option>Questions about Hotels</option>
+        <option>Need Help with Travel Planning</option>
+        <option>General Inquiries</option>
+        <option>Other</option>
+      </select>
+
+      <label for="message">Message<span>*</span></label>
+      <textarea id="message" name="message" rows="6" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <div id="thank-you" class="thank-you-message">
+    <p>✅ Thank you! Your message has been submitted successfully.</p>
+  </div>
+
+  <!-- Contact Details Section -->
+  <section class="contact-info">
+    <h2>Other Ways to Reach Us</h2>
+    <p>Email: <a href="mailto:info@explorethemaldives.com">info@explorethemaldives.com</a></p>
+    <p>Phone: +960 123-4567 (Intl. Rates Apply)</p>
+    
+  </section>
+
+  <!-- Call-to-Action -->
+  <section class="contact-cta">
+    <div class="contact-p">
+        <p id="email-2">We’re excited to help you plan your Maldives adventure! Reach out with any questions, and we’ll get back to you as soon as possible.</p>
+    <p><a href="faq.html">Visit our FAQ page</a> for quick answers.</p>
+
+    </div>
+    
+  </section>
+
+  <footer>
+    <div class="section-1">
+      <h4>Explore maldives</h4>
+      <div class="social-icons">
+        <a href="https://www.facebook.com/" target="_blank">
+          <img src="images/facebook.jpg" alt="Facebook icon" />
+        </a>
+        <a href="https://www.instagram.com/" target="_blank">
+          <img src="images/instagram.jpg" alt="Instagram icon" />
+        </a>
+        <a href="https://web.whatsapp.com/" target="_blank">
+          <img src="images/whatsapp.jpg" alt="WhatsApp icon" />
+        </a>
+        <a href="https://telegram.org/" target="_blank">
+          <img src="images/telegram.jpg" alt="Telegram icon" />
+        </a>
+      </div>
+      <p>
+        In the Maldives, you realize 
+        how small your worries are compared to the endless beauty that surrounds you.
+      </p>
+    </div>
+  </footer>
+
+</body>
+
+</html>
